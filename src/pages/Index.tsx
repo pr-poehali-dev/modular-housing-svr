@@ -16,21 +16,21 @@ const PROJECTS = [
     area: '36 м²',
     price: 'от 1 290 000 ₽',
     tag: 'Студия',
-    img: 'https://cdn.poehali.dev/projects/4ff8d8ad-8ef5-4693-a49c-170ec4ce4f16/files/7bfbe854-1b5b-44e3-94b4-484ed4da3623.jpg',
+    img: 'https://cdn.poehali.dev/projects/4ff8d8ad-8ef5-4693-a49c-170ec4ce4f16/files/dbda64c5-36fe-4319-abe5-f50db4f31207.jpg',
   },
   {
     title: 'CLIFF 72',
     area: '72 м²',
     price: 'от 2 850 000 ₽',
     tag: '2 модуля',
-    img: 'https://cdn.poehali.dev/projects/4ff8d8ad-8ef5-4693-a49c-170ec4ce4f16/files/a54b7c51-83cb-42cf-afc3-45f54a42cdd9.jpg',
+    img: 'https://cdn.poehali.dev/projects/4ff8d8ad-8ef5-4693-a49c-170ec4ce4f16/files/089d779a-2da8-4e06-95d0-09a811a0e191.jpg',
   },
   {
     title: 'COMPACT 28',
     area: '28 м²',
     price: 'от 990 000 ₽',
     tag: 'Tiny House',
-    img: 'https://cdn.poehali.dev/projects/4ff8d8ad-8ef5-4693-a49c-170ec4ce4f16/files/0fca8dd5-9d7f-4c56-9343-e8b2003d7cda.jpg',
+    img: 'https://cdn.poehali.dev/projects/4ff8d8ad-8ef5-4693-a49c-170ec4ce4f16/files/49adeba7-8f56-41f7-9e42-c525d536f189.jpg',
   },
 ];
 
@@ -257,8 +257,8 @@ const Index = () => {
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <img src={PROJECTS[1].img} alt="Объект" className="rounded-2xl border border-border w-full h-full object-cover animate-float-slow" />
-            <img src={PROJECTS[2].img} alt="Объект" className="rounded-2xl border border-border w-full h-full object-cover mt-8 animate-float-slow" style={{ animationDelay: '1.5s' }} />
+            <img src={PROJECTS[0].img} alt="Объект" className="rounded-2xl border border-border w-full h-full object-cover animate-float-slow" />
+            <img src={PROJECTS[1].img} alt="Объект" className="rounded-2xl border border-border w-full h-full object-cover mt-8 animate-float-slow" style={{ animationDelay: '1.5s' }} />
           </div>
         </div>
       </section>
