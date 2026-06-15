@@ -56,16 +56,16 @@ const STATS = [
 ];
 
 const ARTICLES = [
-  { tag: 'Технологии', title: 'Почему дома из контейнеров — это будущее загородного жилья', date: '12 июня 2026' },
-  { tag: 'Гайд', title: 'Как выбрать модульный дом: 7 ключевых критериев', date: '4 июня 2026' },
-  { tag: 'Тренды', title: 'Энергоэффективность модульных домов в 2026 году', date: '28 мая 2026' },
+  { tag: 'Технологии', title: 'Почему дома из металлокаркаса — это будущее загородного жилья', date: '12 июня 2026' },
+  { tag: 'Гайд', title: 'Как выбрать дом из металлокаркаса: 7 ключевых критериев', date: '4 июня 2026' },
+  { tag: 'Тренды', title: 'Энергоэффективность металлокаркасных домов в 2026 году', date: '28 мая 2026' },
 ];
 
 const FAQ = [
   { q: 'Сколько времени занимает изготовление дома?', a: 'В среднем от 30 до 45 дней с момента подписания договора, включая производство, доставку и монтаж.' },
-  { q: 'Нужен ли фундамент для модульного дома?', a: 'Капитальный фундамент не требуется. Достаточно винтовых свай или бетонных блоков — это экономит время и деньги.' },
+  { q: 'Нужен ли фундамент для дома из металлокаркаса?', a: 'Капитальный фундамент не требуется. Достаточно винтовых свай или бетонных блоков — это экономит время и деньги.' },
   { q: 'Можно ли оформить кредит или рассрочку?', a: 'Да, мы работаем с банками-партнёрами. Доступны рассрочка и ипотечные программы с одобрением за один день.' },
-  { q: 'Какая гарантия на дом?', a: 'Мы даём официальную гарантию 5 лет на несущую конструкцию и используем только сертифицированные материалы.' },
+  { q: 'Какая гарантия на дом?', a: 'Мы даём официальную гарантию 5 лет на металлокаркасную конструкцию и используем только сертифицированные материалы.' },
   { q: 'Можно ли жить в таком доме зимой?', a: 'Да, все дома утепляются по нормам для круглогодичного проживания и подходят для любого климата России.' },
 ];
 
@@ -130,13 +130,13 @@ const Index = () => {
         <div className="container relative z-10 py-24">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/40 bg-primary/5 mb-8 animate-fade-up">
             <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-            <span className="text-xs tracking-widest text-primary uppercase">Модульное строительство нового поколения</span>
+            <span className="text-xs tracking-widest text-primary uppercase">Модульное домостроение из металлокаркаса</span>
           </div>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] max-w-4xl animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            ДОМА ИЗ КОНТЕЙНЕРОВ <span className="text-primary text-glow">ПОД КЛЮЧ</span>
+            ДОМА ИЗ МЕТАЛЛОКАРКАСА <span className="text-primary text-glow">ПОД КЛЮЧ</span>
           </h1>
           <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-xl animate-fade-up" style={{ animationDelay: '0.2s' }}>
-            Проектируем, производим и устанавливаем готовые модульные дома за 30 дней. С гарантией качества и возможностью кредитования.
+            Проектируем, производим и устанавливаем готовые дома из металлокаркаса за 30 дней. С гарантией качества и возможностью кредитования.
           </p>
           <div className="mt-10 flex flex-wrap gap-4 animate-fade-up" style={{ animationDelay: '0.3s' }}>
             <Button asChild size="lg" className="font-display tracking-wider text-base h-14 px-8">
@@ -180,7 +180,7 @@ const Index = () => {
       <section id="projects" className="py-24 border-t border-border relative">
         <div className="absolute inset-0 grid-bg opacity-20" />
         <div className="container relative">
-          <SectionTitle eyebrow="Портфолио / 3D-визуализация" title="Готовые модульные проекты" />
+          <SectionTitle eyebrow="Портфолио / 3D-визуализация" title="Готовые проекты из металлокаркаса" />
           <div className="grid md:grid-cols-3 gap-8 mt-14">
             {PROJECTS.map((p) => (
               <div key={p.title} className="tilt-card group rounded-2xl overflow-hidden bg-card border border-border cursor-pointer">
@@ -243,7 +243,7 @@ const Index = () => {
           <div>
             <SectionTitle eyebrow="О компании" title="История, команда и качество" align="left" />
             <p className="mt-8 text-muted-foreground leading-relaxed">
-              SVR GROUP — производственная компания, которая с 2015 года строит модульные дома из контейнеров. Мы прошли путь от мастерской до собственного производства полного цикла.
+              SVR GROUP — производственная компания, которая с 2015 года строит модульные дома из металлокаркаса. Мы прошли путь от мастерской до собственного производства полного цикла.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Наша команда — инженеры, архитекторы и монтажники с опытом более 10 лет. Каждый дом проходит контроль качества и сопровождается полным пакетом документов.
@@ -266,7 +266,7 @@ const Index = () => {
       {/* ARTICLES */}
       <section id="articles" className="py-24 border-t border-border">
         <div className="container">
-          <SectionTitle eyebrow="Блог" title="Статьи о модульном строительстве" />
+          <SectionTitle eyebrow="Блог" title="Статьи о строительстве из металлокаркаса" />
           <div className="grid md:grid-cols-3 gap-6 mt-14">
             {ARTICLES.map((a) => (
               <article key={a.title} className="group p-7 rounded-2xl bg-card border border-border hover:border-primary/50 transition-colors cursor-pointer">
@@ -343,7 +343,7 @@ const Index = () => {
       <footer className="border-t border-border py-12">
         <div className="container flex flex-col md:flex-row items-center justify-between gap-6">
           <a href="#" className="font-display text-2xl font-bold">SVR<span className="text-primary">GROUP</span></a>
-          <p className="text-sm text-muted-foreground">© 2026 SVR GROUP · Модульные дома из контейнеров под ключ</p>
+          <p className="text-sm text-muted-foreground">© 2026 SVR GROUP · Модульные дома из металлокаркаса под ключ</p>
           <div className="flex gap-3">
             {['Send', 'Instagram', 'Youtube'].map((ic) => (
               <a key={ic} href="#" className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center hover:border-primary/50 hover:text-primary transition-colors">
