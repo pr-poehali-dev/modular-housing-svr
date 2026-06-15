@@ -248,6 +248,9 @@ const Index = () => {
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Наша команда — инженеры, архитекторы и монтажники с опытом более 10 лет. Каждый дом проходит контроль качества и сопровождается полным пакетом документов.
             </p>
+            <p className="mt-4 text-muted-foreground leading-relaxed">
+              Наши конструкции прошли проверку сибирскими морозами до −50°C. Металлокаркас не деформируется, не трескается и сохраняет тепло даже в условиях экстремального климата — это не слова, а подтверждённый опыт эксплуатации в Сибири и на Урале.
+            </p>
             <div className="mt-10 flex flex-wrap gap-4">
               {['ISO 9001', 'Сертификат ОТК', 'Договор и смета', 'Гарантия 5 лет'].map((b) => (
                 <span key={b} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-border text-sm">
