@@ -87,7 +87,7 @@ const Index = () => {
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border">
         <div className="container flex items-center justify-between h-16">
           <a href="#" className="font-display text-2xl font-bold tracking-tight">
-            SVR<span className="text-primary">GROUP</span>
+            <span className="text-primary">SVR</span><span className="text-foreground">GROUP</span>
           </a>
           <nav className="hidden lg:flex items-center gap-8">
             {nav.map((n) => (
@@ -345,7 +345,7 @@ const Index = () => {
       {/* FOOTER */}
       <footer className="border-t border-border py-12">
         <div className="container flex flex-col md:flex-row items-center justify-between gap-6">
-          <a href="#" className="font-display text-2xl font-bold">SVR<span className="text-primary">GROUP</span></a>
+          <a href="#" className="font-display text-2xl font-bold"><span className="text-primary">SVR</span><span className="text-foreground">GROUP</span></a>
           <p className="text-sm text-muted-foreground">© 2026 SVR GROUP · Модульные дома из металлокаркаса под ключ</p>
           <div className="flex gap-3">
             {['Send', 'Instagram', 'Youtube'].map((ic) => (
