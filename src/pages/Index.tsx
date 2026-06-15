@@ -180,7 +180,7 @@ const Index = () => {
       <section id="projects" className="py-24 border-t border-border relative">
         <div className="absolute inset-0 grid-bg opacity-20" />
         <div className="container relative">
-          <SectionTitle eyebrow="Портфолио / 3D-визуализация" title="Готовые проекты из металлокаркаса" />
+          <SectionTitle eyebrow="Портфолио" title="Готовые проекты из металлокаркаса" />
           <div className="grid md:grid-cols-3 gap-8 mt-14">
             {PROJECTS.map((p) => (
               <div key={p.title} className="tilt-card group rounded-2xl overflow-hidden bg-card border border-border cursor-pointer">
@@ -190,9 +190,7 @@ const Index = () => {
                   <span className="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-medium bg-background/80 backdrop-blur border border-primary/40 text-primary">
                     {p.tag}
                   </span>
-                  <div className="absolute bottom-4 right-4 w-12 h-12 rounded-full bg-primary/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                    <Icon name="Box" size={22} className="text-primary-foreground" />
-                  </div>
+
                 </div>
                 <div className="p-6">
                   <div className="flex items-center justify-between">
@@ -202,7 +200,7 @@ const Index = () => {
                   <div className="mt-4 flex items-center justify-between">
                     <span className="text-primary font-display text-lg">{p.price}</span>
                     <span className="flex items-center gap-1 text-sm text-muted-foreground group-hover:text-primary transition-colors">
-                      3D-тур <Icon name="ArrowUpRight" size={16} />
+                      Подробнее <Icon name="ArrowUpRight" size={16} />
                     </span>
                   </div>
                 </div>
